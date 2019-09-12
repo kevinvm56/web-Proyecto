@@ -5,6 +5,17 @@
 h1{
     text-align: center;
     color: white;
+    position: relative;
+    top: 10px;
+}
+.footer img:hover{
+    opacity: .5;
+    }
+.footer img{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 688px;
 }
 body{
     background-image: url("../img/info.jpg");
@@ -12,14 +23,24 @@ body{
     background-attachment: fixed;
     background-size: 2195px;
 }
-img{
-    width: 100px;
-    height: 100px;
-    position:absolute;
-    bottom: 10px;
+nav{
+    background: #434343;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    bottom:30px;
 }
 ul{
     list-style: none;
+    position: fixed;
+    top: 50px;
 }
 .primera > li{
     float:left;
@@ -35,7 +56,7 @@ ul{
     background-color: #434343;
 }
 .primera li a:active{
-    background-color: #434343;
+    background-color: red;
 }
 
 table{
@@ -60,6 +81,10 @@ td{
     display:none;
     position: absolute;
 }
-.primera li:hover >ul{
-    display:block;
+.primera li:active >ul{
+    display: block;
+    position: absolute;
+    top:200px;
+    left: 500px;
+    
 }
