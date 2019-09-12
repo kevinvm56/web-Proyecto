@@ -7,7 +7,7 @@ h1{
     color: white;
 }
 body{
-    background-image: url("/img/info.jpg");
+    background-image: url("../img/info.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 2195px;
