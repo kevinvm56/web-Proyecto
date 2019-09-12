@@ -5,6 +5,17 @@
 h1{
     text-align: center;
     color: white;
+    position: relative;
+    top: 10px;
+}
+.footer img:hover{
+    opacity: .5;
+    }
+.footer img{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 688px;
 }
 body{
     background-image: url("../img/info.jpg");
@@ -12,14 +23,23 @@ body{
     background-attachment: fixed;
     background-size: 2195px;
 }
-img{
-    width: 100px;
-    height: 100px;
-    position:absolute;
-    bottom: 10px;
+nav{
+    background: #434343;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    
+}
+.yaas img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
 }
 ul{
     list-style: none;
+    position: fixed;
+    top: 50px;
 }
 .primera > li{
     float:left;
@@ -34,6 +54,9 @@ ul{
 .primera li a:hover{
     background-color: #434343;
 }
+.primera li a:active{
+    background-color: red;
+}
 
 table{
     border-collapse: collapse;
@@ -41,6 +64,7 @@ table{
 }
 table,td,th{
     border: 2px solid black;   
+    background-color: #E8F5EC ;
 }
 th,td{
     height: 50px;
@@ -50,12 +74,16 @@ th{
     background-color: #73E35A;
 }
 td{
-    color: white;
+    color: red;
 }
 .primera li ul{
-    display:none;
+    max-height: 0;
+    overflow: hidden;
     position: absolute;
 }
-.primera li:hover >ul{
-    display:block;
+.primera li:hover>ul{
+     max-height: 1000px;
+    transition: all 1s;
 }
+
+
