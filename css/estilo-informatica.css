@@ -104,7 +104,8 @@ td{
     color: red;
 }
 .primera li ul{
-    position: relative;
+    display: none;
+    position: absolute;
 }
 .primera li:hover>ul{
      display: block;
@@ -117,7 +118,5 @@ td{
     position: absolute;
     top: 300px;
     left: 500px;
-    
 }
-
 
