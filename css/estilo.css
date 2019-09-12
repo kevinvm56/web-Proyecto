@@ -92,6 +92,7 @@ position: relative;
 .introduccion:hover{
     background: white;
     color:rgb(75,75,75);
+  
 }
 .introduccion h1{
     font-family: Arial, Helvetica, sans-serif;
